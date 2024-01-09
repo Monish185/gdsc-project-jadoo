@@ -1,0 +1,489 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    /* overflow-y: auto; */
+     /* overflow:hidden; */
+    
+}
+.main{
+    overflow: auto;
+}
+.la{
+    display: flex;
+    justify-content: center;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    overflow: sticky;
+    
+}
+.logo{
+    position: absolute;
+    top: 0.25rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.nav-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-bottom: 4rem;
+    margin-left: 15rem;
+    margin-top: 1rem;
+    
+}
+
+.nav-buttons a{
+    text-decoration: none;
+    color: black;
+}
+.link{
+    opacity: 0.8;
+}
+.link:hover{
+    opacity: 1;
+}
+.nav-buttons button{
+    background-color: white;
+    border-radius: 0.25rem;
+    padding: 0.25rem 0.65rem;
+    width: 6rem;
+}
+.nav-buttons button:hover{
+    background-color: black;
+    color: white;
+}
+.language{
+  border: none;
+}
+
+.hero{
+    margin-bottom: 10rem;
+}
+
+.hero-text{
+    width: 630px;
+    margin-left: 2rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.hero-text h1{
+    font-size:84px;
+    color: #181E4B;
+    font-weight: 550;
+}
+.hero-text h5{
+    color: #DF6951;
+    font-weight: 600;
+    font-size: 23px;
+    margin-bottom: 1rem;
+}
+.hero-text p{
+    width: 460px;
+    font-size: 16px;
+    color: #5E6282;
+    
+}
+.div1 button{
+    background-color: #F1A501;
+    border-radius: 10px;
+    height: 3rem;
+    padding: 0.5rem 1rem;
+    color: #FFFFFF;
+    width: 9rem;
+    margin-left:2rem ;
+    opacity: 0.9;
+}
+.div1 button:hover{
+    opacity: 1;
+}
+.play{
+    margin-top: 1rem;
+}
+.hero-btn{
+    margin-bottom: 1rem;
+}
+.hero-content{
+    display: flex;
+    justify-content: center;
+}
+
+#under{
+    position:relative;
+    margin-top: -39rem;
+    margin-left:  15rem;
+    z-index: -1;
+   
+  }
+  #decore{
+    position: relative;
+    z-index: -1;
+    margin-top: -66.5rem;
+    margin-left: 50rem;
+  }
+.services{
+    margin-bottom: 10rem;
+}
+.services h5{
+    color: #5E6282;
+    font-weight: 600;
+    font-size: 23px;
+    margin-bottom: 1rem;
+    justify-content: center;
+    display: flex;
+    margin-top: 1.5rem;
+}
+.services h1{
+    font-size:70px;
+    color: #181E4B;
+    font-weight: 550;
+    display: flex;
+    justify-content: center;
+    
+}
+.service-card{
+    display: flex;
+    margin-top: 5rem;
+    justify-content: center ;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+#rect{
+    position:relative;
+    margin-top: -4rem;
+    margin-left:  -16rem;
+    z-index: -1;
+   
+  }
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-right: 5rem;
+    border-color: #FFFFFF;
+   /* border: none;*/ 
+    width: 18rem;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    border-radius: 20%;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 16px 16px 16px 0 rgba(0,0,0,0.2);
+    border-radius: 0;
+  }
+  
+  /* Add some padding inside the card container */
+  /* .container {
+    padding: 2px 16px; */
+  /* } */
+  .card h5{
+    color: #1E1D4C;
+  }
+  .card img{
+    width: 92px;
+    display: flex;
+    justify-content: center;
+    /* margin-left: 7rem;*/
+    margin-top: 1rem; 
+  }
+  .destinations{
+    margin-bottom: 10rem;
+  }
+  
+  .destinations h1{
+        font-size:70px;
+        color: #181E4B;
+        font-weight: 550;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2rem;
+    
+  }
+  .destinations h5{
+    color: #5E6282;
+    font-weight: 600;
+    font-size: 23px;
+    margin-bottom: 1rem;
+    justify-content: center;
+    display: flex;
+    margin-top: 1.5rem;
+  }
+
+  .destination-card{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+    justify-content: center;
+    margin-left: auto;
+    margin-top: 5rem;
+  }
+  #cord{
+    position:relative;
+    margin-top: -24rem;
+    margin-left:  16.2rem;
+    z-index: -1;
+   
+  }
+  .card2{
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-right: 5rem;
+    margin-bottom: 1.5rem;
+    border-color: #FFFFFF;
+   /* border: none;*/ 
+    width: 18rem;
+    text-align: center;
+    align-items: center;
+    border-radius: 10%;
+    object-fit:cover;
+    height: 26rem;
+  }
+  .card2:hover {
+    box-shadow: 16px 16px 16px 0 rgba(0,0,0,0.2);
+    border-radius: 0;
+    border-image: 0;
+
+    
+  }
+  .card-img-top1{
+    width: 18rem;
+    border-radius: 10% 10% 0 0;
+    height: 20rem;
+    object-fit:top;
+  }
+  .upper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #5E6282;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  .dest{
+    display: flex;
+    justify-content: start;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+  }
+  .book-text{
+    width: 800px;
+    margin-left: 2rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .book-text h1{
+    font-size:84px;
+    color: #181E4B;
+    font-weight: 550;
+  }
+  .book-text h5{
+    color: #5E6282;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 1rem;
+}
+.points{
+    display: flex;
+    flex-wrap: wrap;
+}
+.txt{
+    margin-left: 2rem;
+}
+.points{
+    margin-top: 2rem;
+}
+.book{
+    display: flex;
+    justify-content: center;
+   
+}
+.txt p{
+    width: 30rem;
+    font-size: 1.25rem;
+}
+.txt h5{
+    font-size: 1.75rem;
+}
+.book{
+    margin-bottom: 10rem;
+}
+.testinomials{
+    display: flex;
+    justify-content: center;
+    margin-left: 1rem;
+    margin-bottom: 7rem;
+}
+.testinomials-text{
+    width: 800px;
+    margin-left: 2rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: -5rem;
+}
+.testinomials-text h5{
+    color: #5E6282;
+    font-weight: 600;
+    font-size: 30px;
+    /* margin-bottom: 1rem; */
+}
+.testinomials-text h1{
+    font-size:84px;
+    color: #181E4B;
+    font-weight: 550;
+    margin-top: -9rem;
+  }
+  .logos{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .imp{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+  }
+  .subscribe{
+    background-image: url(./images/Group\ 78.svg);
+    height: 410px;
+    width: 1200px;
+    display: block;
+    /* display: flex; */
+    text-align: center;
+    /* align-items: center;
+    justify-content: center; */
+    text-wrap: wrap;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+   
+  }  
+
+  .subscribe h3{
+    width: 60%;
+    color: #5E6282;
+    font-weight: 550;
+     margin-top: 5rem;
+    font-size: 2rem; 
+    margin-left: 19rem;
+    margin-bottom: 3rem;
+  }
+  .btn-3{
+    display: inline-flex;
+    margin-left: 6rem;
+  }
+  .btn-3 button{
+    margin-left: 2.5rem;
+    background-color: #FF946D;
+    border-radius: 10%;
+    height: 4rem;
+    padding: 0.5rem 1rem;
+    color: #FFFFFF;
+    width: 10rem;
+    margin-left:2rem ;
+    opacity: 0.9;
+    border-color: #FFFFFF;
+}
+.btn-3 button:hover{
+    opacity: 1;
+
+}
+.btn-3 input{
+  height: 3rem;
+  width: 20rem;
+  border-radius: 15px;
+  text-align: center;
+  margin-top: 0.25rem;
+  /* border-color: #FFFFFF; */
+}
+#tele{
+   margin-top: -25rem;
+   margin-left: -2.5rem;
+}
+#plus{
+  margin-left: -5.9rem;
+  margin-top: 23rem;
+}
+
+   /* .input{
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+   } */
+  .footer{
+    display: flex;
+    justify-content: center;
+  }
+  .jadoo{
+    width: 20rem;
+  }
+  .jadoo h2{
+    color: #181E4B;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  .jadoo h5{
+    color: #5E6282;
+    font-weight: 520;
+    font-size: 1.25rem;
+  }
+  .list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .list h3{
+    font-weight: 600;
+  }
+  .list a{
+    text-decoration: none;
+    color: #5E6282;
+    display:block;
+    font-weight: 550;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    opacity: 0.8;
+  }
+  .company{
+    margin-right: 2rem;
+  }
+  .contact{
+    margin-right: 2rem;
+  }
+  .more{
+    margin-right: 2rem;
+  }
+  .ki{
+    margin-left: 1rem;
+  }
+  .list a:hover{
+   opacity: 1;
+   font-size: 1.6rem;
+}
+.last{
+    display: flex;
+    justify-content:center ;
+    color: #5E6282;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+
+}
